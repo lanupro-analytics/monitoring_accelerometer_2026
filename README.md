@@ -53,20 +53,6 @@ You are ready to start!
 
 ---
 
-## Use GitHub Copilot
-
-You are encouraged to use **GitHub Copilot**, the AI assistant built into VS Code. It is installed in the Codespace.
-
-- **It is free for every GitHub account** within a monthly limit of code suggestions and chat messages (the limits can change). Students can also get Copilot Pro for free through [GitHub Education](https://education.github.com/students).
-- Click the Copilot icon at the top of VS Code to open the chat. Sign in with your GitHub account if asked.
-- Good uses: ask it to **explain** an error message or a line of code, to explain a concept (e.g. standardization, confusion matrix), or to suggest how to start a task.
-- Select a cell or error, then ask a specific question, for example *"Why do I get a shape mismatch in this cell?"*
-
-> [!IMPORTANT]
-> You are responsible for your answers. Make sure you understand every line you submit, and check the result with the check cells and your own evaluation. Copilot can make mistakes.
-
----
-
 ## Submitting
 
 At the end, make sure the notebook runs **from start to finish without errors** (*Restart* → *Run All*).
@@ -77,6 +63,20 @@ At the end, make sure the notebook runs **from start to finish without errors** 
    - the exported `.html` file
 3. Rename them `name_firstname_cow_behaviour.ipynb` and `name_firstname_cow_behaviour.html`.
 4. Upload both on **Ufora**.
+
+---
+
+## Use GitHub Copilot
+
+You are allowed to use **GitHub Copilot**, the AI assistant built into VS Code. It is installed in the Codespace.
+
+- **It is free for every GitHub account** within a monthly limit of code suggestions and chat messages (the limits can change). Students can also get Copilot Pro for free through [GitHub Education](https://education.github.com/students).
+- Click the Copilot icon at the top of VS Code to open the chat. Sign in with your GitHub account if asked.
+- Good uses: ask it to **explain** an error message or a line of code, to explain a concept (e.g. standardization, confusion matrix), or to suggest how to start a task.
+- Select a cell or error, then ask a specific question, for example *"Why do I get a shape mismatch in this cell?"*
+
+> [!IMPORTANT]
+> You are responsible for your answers. Make sure you understand every line you submit, and check the result with the check cells and your own evaluation. Copilot can make mistakes.
 
 ---
 
