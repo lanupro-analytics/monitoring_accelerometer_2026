@@ -16,6 +16,7 @@
       ],
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "jupyter.kernels.excludePythonEnvironments": ["/usr/bin/python3", "/bin/python3", "/usr/bin/python3.11"],
         "jupyter.notebookFileRoot": "${workspaceFolder}",
         "notebook.output.textLineLimit": 40,
         "workbench.startupEditor": "none"

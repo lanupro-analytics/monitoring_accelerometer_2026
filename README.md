@@ -97,7 +97,7 @@ You are allowed to use **GitHub Copilot**, the AI assistant built into VS Code. 
 | Problem | Solution |
 |---|---|
 | Packages are missing / `ModuleNotFoundError` | Wait until the set-up at the bottom of VS Code is finished. Still missing? Open a terminal (menu *Terminal → New Terminal*) and run `pip install -r requirements.txt`. |
-| No kernel / wrong Python version | Top right **Select Kernel** → **Python Environments** → Python 3.12. |
+| No kernel, wrong Python version, or *"Running cells with 'Python 3.11' requires the ipykernel package"* | You selected the wrong Python. Top right click the kernel name → **Select Another Kernel** → **Python Environments** → **Python 3.12** (`/usr/local/bin/python`). Do not install anything for Python 3.11. |
 | Export to HTML does not work | In a terminal: `pip install nbconvert`, then try again. |
 | Out of memory / kernel crashed | The data of three cows is large (about 2 GB). Restart the kernel and run the cells again from the top. Make sure your Codespace runs on the 4-core machine with 16 GB memory (repository page, Codespaces menu, `...`, *Change machine type*). Close other notebooks. |
 | Something else | Ask the teacher. |
