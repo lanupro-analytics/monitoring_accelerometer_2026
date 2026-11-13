@@ -1,0 +1,25 @@
+{
+  "name": "Cow behaviour practical (Python 3.12)",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "16gb"
+  },
+  "postCreateCommand": "python --version && pip install --upgrade pip && pip install -r requirements.txt ipykernel nbconvert",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "GitHub.copilot",
+        "GitHub.copilot-chat"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "jupyter.notebookFileRoot": "${workspaceFolder}",
+        "notebook.output.textLineLimit": 40,
+        "workbench.startupEditor": "none"
+      }
+    }
+  }
+}

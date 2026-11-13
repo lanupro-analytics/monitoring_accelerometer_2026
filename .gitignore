@@ -1,0 +1,16 @@
+.Rproj.user
+.Rhistory
+.RData
+.httr-oauth
+.DS_Store
+.quarto
+
+/.quarto/
+**/*.quarto_ipynb
+
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+
+# Model saved by the notebook (section 11), generated
+data/processed/behaviour_model.pkl
